@@ -1,0 +1,91 @@
+#container-modal {
+    display: none;
+    background-color: #cccccc77;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#form-modal {
+    position: relative;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #213287;
+    text-align: center;
+}
+button {
+    background-color: #213287;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #213287;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+#botao-cancelar {
+    background-color: #fff;
+    color: #213287;
+    border: 1px solid #213287;
+}
+.botao-excluir {
+    background-color: #cc0000;
+    color: #fff;
+    border: 1px solid #cc0000;
+}
+#botao-adicionar {
+    position: relative;
+    left: 46%;
+}
+table {
+    width: 100%;
+    background-color: #ffffffbb;
+}
+th, td {
+    font-family: sans-serif;
+}
+thead tr {
+    background-color: #bbbbbb;
+}
+thead tr th, tbody tr td {
+    padding: 5px;
+    font-weight: bold;
+}
+tbody tr:nth-child(even){
+    background-color: #bbbbbbbb;
+}
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.form-group label {
+    flex: 1;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 1;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.form-group select {
+    padding: 5px;
+    width: 183px;
+}
+.form-buttons {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image: url('../images/fundo-geometrico-minimo-azul.png');
+    background-size: cover;
+}
